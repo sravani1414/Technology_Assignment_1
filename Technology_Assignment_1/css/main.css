@@ -1,13 +1,6 @@
-﻿body {
-    background: #0ff;
-    /*background: #b5bdc8;
-    background: -moz-radial-gradient(center, ellipse cover);
-    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b));
-    background: -webkit-radial-gradient(center, ellipse cover, #b5bdc8 0,#828c95 36%,#28343b 100%);
-    background: -o-radial-gradient(center, ellipse cover, #b5bdc8 0,#828c95 36%,#28343b 100%);
-    background: -ms-radial-gradient(center, ellipse cover, #b5bdc8 0,#828c95 36%,#28343b 100%);
-    background: radial-gradient(ellipse at center, #b5bdc8 0,#828c95 36%,#28343b 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );*/
+﻿
+body {
+    background-image: url('../assets/images/bg.jpg');
 }
 
 /* styling for slides that are inactive */
@@ -30,13 +23,13 @@
 /* styling for all slides */
 .text{
     display: block;
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 380px;
     padding: 40px 60px;
     background-color: pink;
 
     border: 5px solid yellow;
-    color: #ff006e;
+    color: #ff6a00;
     text-shadow: 0 2px 2px yellow;
     border-radius: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
